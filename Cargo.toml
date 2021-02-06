@@ -1,0 +1,24 @@
+[package]
+name = "smallest-uint"
+version = "0.1.0"
+authors = ["taylor.fish <contact@taylor.fish>"]
+edition = "2018"
+description = """\
+    Gets the smallest unsigned integer type that can represent a given value\
+    """
+readme = "misc/crate-readme.md"
+repository = "https://github.com/taylordotfish/smallest-uint"
+license = "GPL-3.0-or-later"
+keywords = ["compact", "compile-time", "integer", "smallest", "typenum"]
+categories = ["memory-management", "no-std"]
+
+[dependencies]
+typenum = "1.12"
+
+[dependencies.num-traits]
+version = "0.2"
+default-features = false
+
+[features]
+default = ["u128"]
+u128 = []
