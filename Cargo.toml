@@ -1,11 +1,12 @@
 [package]
 name = "smallest-uint"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["taylor.fish <contact@taylor.fish>"]
 edition = "2018"
 description = """\
     Gets the smallest unsigned integer type that can represent a given value\
     """
+documentation = "https://docs.rs/smallest-uint"
 readme = "misc/crate-readme.md"
 repository = "https://github.com/taylordotfish/smallest-uint"
 license = "GPL-3.0-or-later"
