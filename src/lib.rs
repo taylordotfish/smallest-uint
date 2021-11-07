@@ -32,8 +32,8 @@
 //! Crate features
 //! --------------
 //!
-//! If the feature `"u128"` (enabled by default) is disabled, this crate will
-//! not use the [`u128`] type.
+//! If the feature `u128` is enabled, this crate will use the [`u128`] type.
+//! This feature is enabled by default.
 //!
 //! [typenum]: typenum
 

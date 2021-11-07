@@ -28,8 +28,8 @@ assert_eq!(TypeId::of::<SmallestUIntFor<U65536>>(), TypeId::of::<u32>());
 Crate features
 --------------
 
-If the feature `"u128"` (enabled by default) is disabled, this crate will
-not use the [`u128`] type.
+If the feature `u128` is enabled, this crate will use the [`u128`] type.
+This feature is enabled by default.
 
 [typenum]: https://docs.rs/typenum
 [`u8`]: https://doc.rust-lang.org/std/primitive.u8.html
