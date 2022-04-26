@@ -44,8 +44,8 @@ Documentation
 License
 -------
 
-smallest-uint is licensed under version 3 of the GNU General Public License, or
-(at your option) any later version. See [LICENSE](LICENSE).
+smallest-uint is licensed under version 2 of the Apache License. See
+[LICENSE](LICENSE).
 
 Contributing
 ------------

@@ -1,6 +1,6 @@
 [package]
 name = "smallest-uint"
-version = "0.1.2"
+version = "0.1.3"
 authors = ["taylor.fish <contact@taylor.fish>"]
 edition = "2018"
 description = """Gets the smallest unsigned integer type that can represent \
@@ -8,7 +8,7 @@ description = """Gets the smallest unsigned integer type that can represent \
 documentation = "https://docs.rs/smallest-uint"
 readme = "misc/crate-readme.md"
 repository = "https://github.com/taylordotfish/smallest-uint"
-license = "GPL-3.0-or-later"
+license = "Apache-2.0"
 keywords = ["compact", "compile-time", "integer", "smallest", "typenum"]
 categories = ["memory-management", "no-std"]
 
