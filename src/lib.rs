@@ -16,6 +16,7 @@
 
 #![no_std]
 #![cfg_attr(test, recursion_limit = "256")]
+#![forbid(unsafe_code)]
 #![warn(clippy::pedantic)]
 #![allow(clippy::default_trait_access)]
 #![allow(clippy::module_name_repetitions)]
