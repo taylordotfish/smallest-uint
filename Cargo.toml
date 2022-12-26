@@ -1,8 +1,8 @@
 [package]
 name = "smallest-uint"
-version = "0.1.4"
-authors = ["taylor.fish <contact@taylor.fish>"]
+version = "0.1.5-dev"
 edition = "2018"
+rust-version = "1.37"
 description = """Gets the smallest unsigned integer type that can represent \
     a given value"""
 documentation = "https://docs.rs/smallest-uint"
