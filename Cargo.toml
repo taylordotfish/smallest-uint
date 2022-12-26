@@ -1,6 +1,6 @@
 [package]
 name = "smallest-uint"
-version = "0.1.5-dev"
+version = "0.1.5"
 edition = "2018"
 rust-version = "1.37"
 description = """Gets the smallest unsigned integer type that can represent \

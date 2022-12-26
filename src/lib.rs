@@ -1,5 +1,5 @@
 /*
- * Copyright 2021 taylor.fish <contact@taylor.fish>
+ * Copyright 2021-2022 taylor.fish <contact@taylor.fish>
  *
  * This file is part of smallest-uint.
  *
@@ -148,6 +148,7 @@ mod detail {
 /// want the type and aren’t specifying trait bounds, use the type alias
 /// [`SmallestUIntFor`].
 pub trait GetSmallestUIntFor: Unsigned + detail::GetSmallestUIntFor {
+    /// The unsigned integer type.
     type Type: Default + PrimInt + NumAssign;
 }
 
@@ -170,6 +171,7 @@ where
 /// want the type and aren’t specifying trait bounds, use the type alias
 /// [`SmallestUIntUpTo`].
 pub trait GetSmallestUIntUpTo: Unsigned + detail::GetSmallestUIntUpTo {
+    /// The unsigned integer type.
     type Type: Default + PrimInt + NumAssign;
 }
 
